@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="ros2udp" type="ros2udp" name="ros2udp" output="screen">
+        <param name="GT_path" type="string" value="/home/yxt/workspace/sources/bag/GT/" />
+    </node> 
+</launch>
